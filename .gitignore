@@ -1,0 +1,45 @@
+# Gradle and build output
+.gradle/
+build/
+out/
+bin/
+
+# Minecraft development instances and generated worlds
+run/
+run-data/
+run-validation/
+eclipse/
+
+# IDE files
+.idea/
+.vscode/
+.settings/
+.metadata/
+*.iml
+*.ipr
+*.iws
+*.launch
+.classpath
+.project
+
+# Codex and local tooling
+.agents/
+.codex/
+tmp_*.png
+validation.init.gradle
+tools/
+
+# Forge MDK reference files replaced by repository documentation
+README.txt
+changelog.txt
+CREDITS.txt
+LICENSE.txt
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and crash reports
+*.log
+crash-reports/

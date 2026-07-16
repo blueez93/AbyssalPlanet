@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "display": {
+    "icon": { "item": "abyssalplanet:abyssal_whistle" },
+    "title": { "translate": "advancements.abyssalplanet.grow_georges_senior.title" },
+    "description": { "translate": "advancements.abyssalplanet.grow_georges_senior.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "raised_georges_senior": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": { "type": "abyssalplanet:georges_senior" }
+      }
+    }
+  }
+}

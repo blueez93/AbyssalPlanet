@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "abyssalplanet:block/abyssal_algae_lower"
+    },
+    "half=upper": {
+      "model": "abyssalplanet:block/abyssal_algae_upper"
+    }
+  }
+}

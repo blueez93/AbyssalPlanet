@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "FHF",
+    " F "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    },
+    "F": {
+      "item": "abyssalplanet:fish_skin"
+    },
+    "H": {
+      "item": "abyssalplanet:kraken_heart"
+    }
+  },
+  "result": {
+    "item": "abyssalplanet:abyssal_pouch"
+  }
+}

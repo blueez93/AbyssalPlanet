@@ -1,0 +1,17 @@
+name: Feature request
+description: Suggest an improvement for Abyssal Planet
+title: "[Suggestion]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Feature idea
+      description: Describe the feature and its role in the mod.
+    validations:
+      required: true
+  - type: textarea
+    id: gameplay
+    attributes:
+      label: Gameplay impact
+      description: Explain how players would obtain, encounter or use it.

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "abyssalplanet:abyssal_venom_1",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:item",
+          "name": "abyssalplanet:abyssal_venom_2",
+          "weight": 24
+        },
+        {
+          "type": "minecraft:item",
+          "name": "abyssalplanet:abyssal_venom_3",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

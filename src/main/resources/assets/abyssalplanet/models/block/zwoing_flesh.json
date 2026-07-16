@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "abyssalplanet:block/zwoing_flesh",
+    "bait": "abyssalplanet:block/zwoing_flesh"
+  },
+  "elements": [
+    {
+      "from": [1, 0.35, 1],
+      "to": [15, 0.45, 15],
+      "shade": false,
+      "faces": {
+        "down": { "uv": [0, 0, 16, 16], "texture": "#bait" },
+        "up": { "uv": [0, 0, 16, 16], "texture": "#bait" }
+      }
+    },
+    {
+      "from": [2, 0.55, 2],
+      "to": [14, 0.65, 14],
+      "shade": false,
+      "faces": {
+        "down": { "uv": [1, 1, 15, 15], "texture": "#bait" },
+        "up": { "uv": [1, 1, 15, 15], "texture": "#bait" }
+      }
+    }
+  ]
+}

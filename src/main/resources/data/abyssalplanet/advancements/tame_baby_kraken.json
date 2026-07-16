@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "display": {
+    "icon": {
+      "item": "abyssalplanet:abyssal_compost"
+    },
+    "title": {
+      "translate": "advancements.abyssalplanet.tame_baby_kraken.title"
+    },
+    "description": {
+      "translate": "advancements.abyssalplanet.tame_baby_kraken.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tamed_baby_kraken": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "abyssalplanet:baby_kraken"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "tamed_baby_kraken"
+    ]
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "abyssalplanet:zwoing"
+    },
+    {
+      "item": "abyssalplanet:zwoing"
+    },
+    {
+      "item": "abyssalplanet:zwoing"
+    },
+    {
+      "item": "abyssalplanet:zwoing"
+    },
+    {
+      "item": "abyssalplanet:zwoing"
+    }
+  ],
+  "result": {
+    "item": "abyssalplanet:multicolor_zwoing",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.2,
+  "ingredient": {
+    "item": "abyssalplanet:blue_gold_ore"
+  },
+  "result": "abyssalplanet:blue_gold_ingot"
+}

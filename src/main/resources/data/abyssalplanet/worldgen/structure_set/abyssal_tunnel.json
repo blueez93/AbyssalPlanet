@@ -1,0 +1,12 @@
+{
+  "placement": {
+    "type": "abyssalplanet:southern_tunnel",
+    "salt": 17741024
+  },
+  "structures": [
+    {
+      "structure": "abyssalplanet:abyssal_tunnel",
+      "weight": 1
+    }
+  ]
+}

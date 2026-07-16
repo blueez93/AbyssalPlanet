@@ -1,0 +1,70 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "abyssalplanet:block/georges_head",
+    "head": "abyssalplanet:block/georges_head"
+  },
+  "elements": [
+    {
+      "from": [3, 3, 3],
+      "to": [13, 13, 13],
+      "faces": {
+        "down": { "texture": "#head" },
+        "up": { "texture": "#head" },
+        "north": { "texture": "#head" },
+        "south": { "texture": "#head" },
+        "west": { "texture": "#head" },
+        "east": { "texture": "#head" }
+      }
+    },
+    {
+      "from": [4, 1, 4],
+      "to": [12, 5, 12],
+      "faces": {
+        "down": { "texture": "#head" },
+        "up": { "texture": "#head" },
+        "north": { "texture": "#head" },
+        "south": { "texture": "#head" },
+        "west": { "texture": "#head" },
+        "east": { "texture": "#head" }
+      }
+    },
+    {
+      "from": [7, 13, 7],
+      "to": [9, 16, 9],
+      "faces": {
+        "down": { "texture": "#head" },
+        "up": { "texture": "#head" },
+        "north": { "texture": "#head" },
+        "south": { "texture": "#head" },
+        "west": { "texture": "#head" },
+        "east": { "texture": "#head" }
+      }
+    },
+    {
+      "from": [0, 6, 7],
+      "to": [4, 11, 9],
+      "faces": {
+        "down": { "texture": "#head" },
+        "up": { "texture": "#head" },
+        "north": { "texture": "#head" },
+        "south": { "texture": "#head" },
+        "west": { "texture": "#head" },
+        "east": { "texture": "#head" }
+      }
+    },
+    {
+      "from": [12, 6, 7],
+      "to": [16, 11, 9],
+      "faces": {
+        "down": { "texture": "#head" },
+        "up": { "texture": "#head" },
+        "north": { "texture": "#head" },
+        "south": { "texture": "#head" },
+        "west": { "texture": "#head" },
+        "east": { "texture": "#head" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "stage=0": { "model": "abyssalplanet:block/blue_gold_sapling" },
+    "stage=1": { "model": "abyssalplanet:block/blue_gold_sapling" }
+  }
+}

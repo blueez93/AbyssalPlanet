@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "abyssalplanet:block/georges_head" },
+    "facing=east": { "model": "abyssalplanet:block/georges_head", "y": 90 },
+    "facing=south": { "model": "abyssalplanet:block/georges_head", "y": 180 },
+    "facing=west": { "model": "abyssalplanet:block/georges_head", "y": 270 }
+  }
+}

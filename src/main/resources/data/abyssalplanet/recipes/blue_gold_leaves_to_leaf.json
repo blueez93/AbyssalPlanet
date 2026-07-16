@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "abyssalplanet:blue_gold_leaves" }
+  ],
+  "result": {
+    "item": "abyssalplanet:blue_gold_leaf",
+    "count": 8
+  }
+}

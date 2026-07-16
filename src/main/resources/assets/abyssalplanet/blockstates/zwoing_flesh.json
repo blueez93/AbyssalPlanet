@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "summoned=false,waterlogged=false": [
+      { "model": "abyssalplanet:block/zwoing_flesh", "y": 0 },
+      { "model": "abyssalplanet:block/zwoing_flesh", "y": 90 },
+      { "model": "abyssalplanet:block/zwoing_flesh", "y": 180 },
+      { "model": "abyssalplanet:block/zwoing_flesh", "y": 270 }
+    ],
+    "summoned=false,waterlogged=true": [
+      { "model": "abyssalplanet:block/zwoing_flesh", "y": 0 },
+      { "model": "abyssalplanet:block/zwoing_flesh", "y": 90 },
+      { "model": "abyssalplanet:block/zwoing_flesh", "y": 180 },
+      { "model": "abyssalplanet:block/zwoing_flesh", "y": 270 }
+    ],
+    "summoned=true,waterlogged=false": [
+      { "model": "abyssalplanet:block/zwoing_flesh", "y": 0 },
+      { "model": "abyssalplanet:block/zwoing_flesh", "y": 90 },
+      { "model": "abyssalplanet:block/zwoing_flesh", "y": 180 },
+      { "model": "abyssalplanet:block/zwoing_flesh", "y": 270 }
+    ],
+    "summoned=true,waterlogged=true": [
+      { "model": "abyssalplanet:block/zwoing_flesh", "y": 0 },
+      { "model": "abyssalplanet:block/zwoing_flesh", "y": 90 },
+      { "model": "abyssalplanet:block/zwoing_flesh", "y": 180 },
+      { "model": "abyssalplanet:block/zwoing_flesh", "y": 270 }
+    ]
+  }
+}

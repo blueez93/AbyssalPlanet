@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " O ",
+    "TST",
+    "ESE"
+  ],
+  "key": {
+    "O": {
+      "item": "abyssalplanet:soul_of_the_seas"
+    },
+    "T": {
+      "item": "abyssalplanet:abyssal_tentacle"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "E": {
+      "item": "abyssalplanet:abyssal_scale"
+    }
+  },
+  "result": {
+    "item": "abyssalplanet:abyssal_staff",
+    "count": 1
+  }
+}

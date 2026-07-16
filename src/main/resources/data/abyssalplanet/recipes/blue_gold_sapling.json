@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "abyssalplanet:abyssal_compost" },
+    { "item": "abyssalplanet:abyssal_compost" },
+    { "item": "abyssalplanet:abyssal_compost" },
+    { "item": "abyssalplanet:blue_gold_leaves" }
+  ],
+  "result": {
+    "item": "abyssalplanet:blue_gold_sapling",
+    "count": 1
+  }
+}

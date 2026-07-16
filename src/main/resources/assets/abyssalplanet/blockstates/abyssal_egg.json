@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "waterlogged=false": { "model": "abyssalplanet:block/abyssal_egg" },
+    "waterlogged=true": { "model": "abyssalplanet:block/abyssal_egg" }
+  }
+}

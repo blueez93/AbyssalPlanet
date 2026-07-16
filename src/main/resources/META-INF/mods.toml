@@ -1,0 +1,17 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="abyssalplanet"
+version="0.1.2"
+displayName="Abyssal Planet"
+authors="Blue"
+description='''Un monde abyssal rempli d'eau, de typhons, de pieuvres hostiles et du Kraken.'''
+
+[[dependencies.abyssalplanet]]
+modId="geckolib"
+mandatory=true
+versionRange="[${geckolib_version},)"
+ordering="NONE"
+side="BOTH"

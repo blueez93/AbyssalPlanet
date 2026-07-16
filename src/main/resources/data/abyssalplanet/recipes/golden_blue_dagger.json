@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "abyssalplanet:blue_gold_ingot"
+    },
+    "I": {
+      "item": "abyssalplanet:abyssal_ink"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " B ",
+    "IBI",
+    " S "
+  ],
+  "result": {
+    "item": "abyssalplanet:golden_blue_dagger"
+  },
+  "show_notification": true
+}

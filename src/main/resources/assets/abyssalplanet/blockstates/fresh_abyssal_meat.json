@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "summoned=false,waterlogged=false": [
+      { "model": "abyssalplanet:block/fresh_abyssal_meat", "y": 0 },
+      { "model": "abyssalplanet:block/fresh_abyssal_meat", "y": 90 },
+      { "model": "abyssalplanet:block/fresh_abyssal_meat", "y": 180 },
+      { "model": "abyssalplanet:block/fresh_abyssal_meat", "y": 270 }
+    ],
+    "summoned=false,waterlogged=true": [
+      { "model": "abyssalplanet:block/fresh_abyssal_meat", "y": 0 },
+      { "model": "abyssalplanet:block/fresh_abyssal_meat", "y": 90 },
+      { "model": "abyssalplanet:block/fresh_abyssal_meat", "y": 180 },
+      { "model": "abyssalplanet:block/fresh_abyssal_meat", "y": 270 }
+    ],
+    "summoned=true,waterlogged=false": [
+      { "model": "abyssalplanet:block/fresh_abyssal_meat", "y": 0 },
+      { "model": "abyssalplanet:block/fresh_abyssal_meat", "y": 90 },
+      { "model": "abyssalplanet:block/fresh_abyssal_meat", "y": 180 },
+      { "model": "abyssalplanet:block/fresh_abyssal_meat", "y": 270 }
+    ],
+    "summoned=true,waterlogged=true": [
+      { "model": "abyssalplanet:block/fresh_abyssal_meat", "y": 0 },
+      { "model": "abyssalplanet:block/fresh_abyssal_meat", "y": 90 },
+      { "model": "abyssalplanet:block/fresh_abyssal_meat", "y": 180 },
+      { "model": "abyssalplanet:block/fresh_abyssal_meat", "y": 270 }
+    ]
+  }
+}

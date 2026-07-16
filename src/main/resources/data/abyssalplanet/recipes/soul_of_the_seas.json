@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FTF",
+    "HKH",
+    "FTF"
+  ],
+  "key": {
+    "F": {
+      "item": "abyssalplanet:oceanic_soul_fragment"
+    },
+    "T": {
+      "item": "abyssalplanet:kraken_tooth"
+    },
+    "H": {
+      "item": "abyssalplanet:abyssal_tentacle"
+    },
+    "K": {
+      "item": "abyssalplanet:kraken_heart"
+    }
+  },
+  "result": {
+    "item": "abyssalplanet:soul_of_the_seas",
+    "count": 1
+  }
+}

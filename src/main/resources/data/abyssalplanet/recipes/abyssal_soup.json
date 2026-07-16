@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "abyssalplanet:abyssal_tentacle"
+    },
+    {
+      "item": "abyssalplanet:abyssal_tentacle"
+    },
+    {
+      "item": "abyssalplanet:abyssal_ink"
+    }
+  ],
+  "result": {
+    "item": "abyssalplanet:abyssal_soup",
+    "count": 1
+  }
+}

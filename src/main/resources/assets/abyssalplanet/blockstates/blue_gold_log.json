@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y": { "model": "abyssalplanet:block/blue_gold_log" },
+    "axis=z": { "model": "abyssalplanet:block/blue_gold_log_horizontal", "x": 90 },
+    "axis=x": { "model": "abyssalplanet:block/blue_gold_log_horizontal", "x": 90, "y": 90 }
+  }
+}

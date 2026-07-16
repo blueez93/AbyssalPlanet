@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "abyssalplanet:block/blue_gold_log_top",
+    "side": "abyssalplanet:block/blue_gold_log"
+  }
+}

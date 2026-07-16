@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "abyssalplanet:item/golden_blue_dagger"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "item.totem_equip": {
+    "subtitle": "subtitles.abyssalplanet.item.totem_equip",
+    "sounds": [
+      {
+        "name": "abyssalplanet:item/totem_equip",
+        "stream": false
+      }
+    ]
+  },
+  "music.abyssal_theme": {
+    "subtitle": "subtitles.abyssalplanet.music.abyssal_theme",
+    "sounds": [
+      {
+        "name": "abyssalplanet:music/abyssal_theme",
+        "stream": true
+      }
+    ]
+  },
+  "entity.kraken.attack_scream": {
+    "subtitle": "subtitles.abyssalplanet.entity.kraken.attack_scream",
+    "sounds": [
+      {
+        "name": "abyssalplanet:entity/kraken_attack_scream",
+        "stream": false
+      }
+    ]
+  },
+  "entity.kraken.hunt_roar": {
+    "subtitle": "subtitles.abyssalplanet.entity.kraken.hunt_roar",
+    "sounds": [
+      {
+        "name": "abyssalplanet:entity/kraken_hunt_roar",
+        "stream": true
+      }
+    ]
+  }
+}

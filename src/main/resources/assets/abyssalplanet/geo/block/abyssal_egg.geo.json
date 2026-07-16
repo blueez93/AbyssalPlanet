@@ -1,0 +1,52 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.abyssalplanet.abyssal_egg",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 2.0,
+        "visible_bounds_height": 2.2,
+        "visible_bounds_offset": [0, 0.8, 0]
+      },
+      "bones": [
+        { "name": "root", "pivot": [0, 0, 0] },
+        {
+          "name": "shell_lower",
+          "parent": "root",
+          "pivot": [0, 4, 0],
+          "cubes": [
+            { "origin": [-6, 0, -6], "size": [12, 3, 12], "uv": [0, 0] },
+            { "origin": [-7, 3, -7], "size": [14, 5, 14], "uv": [0, 16] }
+          ]
+        },
+        {
+          "name": "shell_middle",
+          "parent": "root",
+          "pivot": [0, 10, 0],
+          "cubes": [
+            { "origin": [-6.5, 8, -6.5], "size": [13, 5, 13], "uv": [0, 36] }
+          ]
+        },
+        {
+          "name": "shell_upper",
+          "parent": "root",
+          "pivot": [0, 14, 0],
+          "cubes": [
+            { "origin": [-5, 13, -5], "size": [10, 4, 10], "uv": [32, 0] },
+            { "origin": [-3.5, 17, -3.5], "size": [7, 3, 7], "uv": [36, 24] }
+          ]
+        },
+        {
+          "name": "cap",
+          "parent": "shell_upper",
+          "pivot": [0, 20, 0],
+          "cubes": [
+            { "origin": [-2, 20, -2], "size": [4, 2, 4], "uv": [48, 40] }
+          ]
+        }
+      ]
+    }
+  ]
+}

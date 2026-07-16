@@ -1,0 +1,7 @@
+{
+  "type": "abyssalplanet:abyssal_tunnel",
+  "biomes": "abyssalplanet:deep_abyssal",
+  "spawn_overrides": {},
+  "step": "underground_structures",
+  "terrain_adaptation": "none"
+}
