@@ -3,7 +3,7 @@
 ![Minecraft 1.20.1](https://img.shields.io/badge/Minecraft-1.20.1-62b47a)
 ![Forge 47.4.20](https://img.shields.io/badge/Forge-47.4.20-ea6b2d)
 ![Java 17](https://img.shields.io/badge/Java-17-ef3b3b)
-![Version 0.1.2](https://img.shields.io/badge/version-0.1.2-28b8d5)
+![Version 0.1.3](https://img.shields.io/badge/version-0.1.3-28b8d5)
 ![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-7256a8)
 
 **Abyssal Planet** is a Forge 1.20.1 adventure mod that opens a path to a vast underwater dimension filled with hostile environments, mysterious ecosystems, tameable companions, rare resources and colossal sea monsters.
@@ -20,6 +20,8 @@
 - Custom ores, Blue Gold trees, abyssal algae and valuable creature materials.
 - Tameable Baby Krakens, Zwoings, Georges Junior, Georges Senior and rare companions.
 - Major encounters against the Kraken, Abyssal Serpent and Georges-Briochard.
+- Abyssal Poacher groups roaming Decay Road, with a surviving poacher able to become the formidable Abyssal Wanderer.
+- A wearable Wanderer Mask and a rare placeable Abyssal Cult Banner with a unique ritual emblem.
 - Unique weapons including the Golden Blue Dagger, Abyssal Staff and Abyssal Hunter's Crossbow.
 - Multiplayer storage, teleportation and companion mechanics.
 - Custom models, animations, particles, sounds and ambient music.
