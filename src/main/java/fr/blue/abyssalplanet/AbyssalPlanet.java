@@ -2,6 +2,7 @@ package fr.blue.abyssalplanet;
 
 import com.mojang.logging.LogUtils;
 import fr.blue.abyssalplanet.network.ModNetwork;
+import fr.blue.abyssalplanet.registry.ModBannerPatterns;
 import fr.blue.abyssalplanet.registry.ModBlocks;
 import fr.blue.abyssalplanet.registry.ModBlockEntities;
 import fr.blue.abyssalplanet.registry.ModEntities;
@@ -29,6 +30,7 @@ public class AbyssalPlanet {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModFluids.register(modEventBus);
+        ModBannerPatterns.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModBlockEntities.register(modEventBus);
         ModItems.register(modEventBus);

@@ -52,6 +52,9 @@ public class ModCreativeTabs {
                             output.accept(ModItems.ABYSSAL_VENOM_1.get());
                             output.accept(ModItems.ABYSSAL_VENOM_2.get());
                             output.accept(ModItems.ABYSSAL_VENOM_3.get());
+                            output.accept(ModItems.ABYSSAL_WANDERER_MASK.get());
+                            output.accept(ModItems.ABYSSAL_POACHER_SPAWN_EGG.get());
+                            output.accept(ModItems.ABYSSAL_WANDERER_SPAWN_EGG.get());
                             output.accept(ModBlocks.ZWOING_FLESH.get());
                             output.accept(ModBlocks.FRESH_ABYSSAL_MEAT.get());
                             output.accept(ZwoingItem.createVariantStack(ZwoingEntity.BLUE));

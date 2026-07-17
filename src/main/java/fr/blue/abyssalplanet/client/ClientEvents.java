@@ -120,6 +120,8 @@ public class ClientEvents {
         event.registerEntityRenderer(ModEntities.GEORGES_JUNIOR.get(), GeorgesJuniorRenderer::new);
         event.registerEntityRenderer(ModEntities.GEORGES_SENIOR.get(), GeorgesSeniorRenderer::new);
         event.registerEntityRenderer(ModEntities.ABYSSAL_SHRIMP.get(), AbyssalShrimpRenderer::new);
+        event.registerEntityRenderer(ModEntities.ABYSSAL_POACHER.get(), AbyssalPoacherRenderer::new);
+        event.registerEntityRenderer(ModEntities.ABYSSAL_WANDERER.get(), AbyssalWandererRenderer::new);
         event.registerBlockEntityRenderer(ModBlockEntities.ABYSSAL_EGG.get(), context -> new AbyssalEggRenderer());
         event.registerBlockEntityRenderer(ModBlockEntities.GEORGES_HEAD.get(), context -> new GeorgesHeadBlockRenderer());
     }
@@ -131,6 +133,9 @@ public class ClientEvents {
         event.registerLayerDefinition(LuminousAbyssalFishModel.LAYER_LOCATION, LuminousAbyssalFishModel::createBodyLayer);
         event.registerLayerDefinition(AbyssalViperModel.LAYER_LOCATION, AbyssalViperModel::createBodyLayer);
         event.registerLayerDefinition(AbyssalSerpentModel.LAYER_LOCATION, AbyssalSerpentModel::createBodyLayer);
+        event.registerLayerDefinition(AbyssalWandererMaskModel.LAYER_LOCATION, AbyssalWandererMaskModel::createBodyLayer);
+        event.registerLayerDefinition(AbyssalPoacherModel.LAYER_LOCATION, AbyssalPoacherModel::createBodyLayer);
+        event.registerLayerDefinition(AbyssalWandererModel.LAYER_LOCATION, AbyssalWandererModel::createBodyLayer);
     }
 
     @SubscribeEvent

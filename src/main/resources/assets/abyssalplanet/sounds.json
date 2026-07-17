@@ -34,5 +34,35 @@
         "stream": true
       }
     ]
+  },
+  "entity.abyssal_poacher.alert": {
+    "subtitle": "subtitles.abyssalplanet.entity.abyssal_poacher.alert",
+    "sounds": [
+      {
+        "name": "abyssalplanet:entity/abyssal_poacher_alert",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "entity.abyssal_wanderer.combat": {
+    "subtitle": "subtitles.abyssalplanet.entity.abyssal_wanderer.combat",
+    "sounds": [
+      {
+        "name": "abyssalplanet:entity/abyssal_wanderer_combat",
+        "stream": false,
+        "attenuation_distance": 64
+      }
+    ]
+  },
+  "entity.abyssal_humanoid.hurt": {
+    "subtitle": "subtitles.abyssalplanet.entity.abyssal_humanoid.hurt",
+    "sounds": [
+      {
+        "name": "abyssalplanet:entity/abyssal_humanoid_hurt",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
   }
 }

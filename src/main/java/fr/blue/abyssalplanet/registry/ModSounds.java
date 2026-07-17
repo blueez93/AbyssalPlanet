@@ -31,6 +31,21 @@ public class ModSounds {
             () -> SoundEvent.createVariableRangeEvent(AbyssalPlanet.id("entity.kraken.hunt_roar"))
     );
 
+    public static final RegistryObject<SoundEvent> ABYSSAL_POACHER_ALERT = SOUND_EVENTS.register(
+            "entity.abyssal_poacher.alert",
+            () -> SoundEvent.createVariableRangeEvent(AbyssalPlanet.id("entity.abyssal_poacher.alert"))
+    );
+
+    public static final RegistryObject<SoundEvent> ABYSSAL_WANDERER_COMBAT = SOUND_EVENTS.register(
+            "entity.abyssal_wanderer.combat",
+            () -> SoundEvent.createVariableRangeEvent(AbyssalPlanet.id("entity.abyssal_wanderer.combat"))
+    );
+
+    public static final RegistryObject<SoundEvent> ABYSSAL_HUMANOID_HURT = SOUND_EVENTS.register(
+            "entity.abyssal_humanoid.hurt",
+            () -> SoundEvent.createVariableRangeEvent(AbyssalPlanet.id("entity.abyssal_humanoid.hurt"))
+    );
+
     public static void register(IEventBus eventBus) {
         SOUND_EVENTS.register(eventBus);
     }

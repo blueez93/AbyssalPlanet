@@ -4,7 +4,7 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="abyssalplanet"
-version="0.1.2"
+version="${mod_version}"
 displayName="Abyssal Planet"
 authors="Blue"
 description='''Un monde abyssal rempli d'eau, de typhons, de pieuvres hostiles et du Kraken.'''

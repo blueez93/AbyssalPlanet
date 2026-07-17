@@ -77,6 +77,12 @@
   "entity.abyssalplanet.georges_junior": "Georges Junior",
   "entity.abyssalplanet.georges_senior": "Georges Senior",
   "entity.abyssalplanet.abyssal_shrimp": "Abyssal Shrimp",
+  "entity.abyssalplanet.abyssal_poacher": "Abyssal Poacher",
+  "entity.abyssalplanet.abyssal_wanderer": "The Wanderer",
+  "item.abyssalplanet.abyssal_wanderer_mask": "Abyssal Wanderer's Mask",
+  "item.abyssalplanet.abyssal_cult_banner": "Abyssal Cult Banner",
+  "item.abyssalplanet.abyssal_poacher_spawn_egg": "Abyssal Poacher Spawn Egg",
+  "item.abyssalplanet.abyssal_wanderer_spawn_egg": "Abyssal Wanderer Spawn Egg",
 
   "message.abyssalplanet.whistle.unlinked": "This whistle is not linked to a Georges Senior.",
   "message.abyssalplanet.whistle.not_found": "Georges Senior cannot be found right now.",
@@ -96,6 +102,10 @@
   "subtitles.abyssalplanet.music.abyssal_theme": "Abyssal theme",
   "subtitles.abyssalplanet.entity.kraken.attack_scream": "Kraken charges",
   "subtitles.abyssalplanet.entity.kraken.hunt_roar": "Kraken begins the hunt",
+  "subtitles.abyssalplanet.entity.abyssal_poacher.alert": "The horde has spotted you",
+  "subtitles.abyssalplanet.entity.abyssal_wanderer.combat": "The Wanderer enters combat",
+  "subtitles.abyssalplanet.entity.abyssal_humanoid.hurt": "An Abyssal Poacher is hurt",
+  "bossbar.abyssalplanet.abyssal_wanderer": "Abyssal Wanderer",
 
   "container.abyssalplanet.abyssal_pouch": "Abyssal Pouch",
 

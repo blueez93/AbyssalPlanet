@@ -10,6 +10,8 @@ import fr.blue.abyssalplanet.entity.AbyssalSerpentEntity;
 import fr.blue.abyssalplanet.entity.AbyssalShrimpEntity;
 import fr.blue.abyssalplanet.entity.AbyssalTyphoonEntity;
 import fr.blue.abyssalplanet.entity.AbyssalViperEntity;
+import fr.blue.abyssalplanet.entity.AbyssalPoacherEntity;
+import fr.blue.abyssalplanet.entity.AbyssalWandererEntity;
 import fr.blue.abyssalplanet.entity.BabyKrakenBubbleEntity;
 import fr.blue.abyssalplanet.entity.BabyKrakenEntity;
 import fr.blue.abyssalplanet.entity.BabyKrakenInkBallEntity;
@@ -252,6 +254,30 @@ public class ModEntities {
                             .clientTrackingRange(80)
                             .updateInterval(2)
                             .build("abyssal_shrimp")
+            );
+
+    public static final RegistryObject<EntityType<AbyssalPoacherEntity>> ABYSSAL_POACHER =
+            ENTITIES.register("abyssal_poacher", () ->
+                    EntityType.Builder.<AbyssalPoacherEntity>of(
+                                    AbyssalPoacherEntity::new,
+                                    MobCategory.MONSTER
+                            )
+                            .sized(0.68F, 1.95F)
+                            .clientTrackingRange(80)
+                            .updateInterval(2)
+                            .build("abyssal_poacher")
+            );
+
+    public static final RegistryObject<EntityType<AbyssalWandererEntity>> ABYSSAL_WANDERER =
+            ENTITIES.register("abyssal_wanderer", () ->
+                    EntityType.Builder.<AbyssalWandererEntity>of(
+                                    AbyssalWandererEntity::new,
+                                    MobCategory.MONSTER
+                            )
+                            .sized(0.76F, 2.18F)
+                            .clientTrackingRange(96)
+                            .updateInterval(2)
+                            .build("abyssal_wanderer")
             );
 
     public static void register(IEventBus eventBus) {

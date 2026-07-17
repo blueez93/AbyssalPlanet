@@ -7,11 +7,13 @@ import fr.blue.abyssalplanet.item.AbyssalPouchItem;
 import fr.blue.abyssalplanet.item.AbyssalStaffItem;
 import fr.blue.abyssalplanet.item.AbyssalSoupItem;
 import fr.blue.abyssalplanet.item.AbyssalVenomItem;
+import fr.blue.abyssalplanet.item.AbyssalWandererMaskItem;
 import fr.blue.abyssalplanet.item.AbyssalWhistleItem;
 import fr.blue.abyssalplanet.item.BrokenAbyssalWhistleItem;
 import fr.blue.abyssalplanet.item.BlueGoldLeafItem;
 import fr.blue.abyssalplanet.item.GoldenBlueDaggerItem;
 import fr.blue.abyssalplanet.item.GoOutItem;
+import fr.blue.abyssalplanet.item.ModArmorMaterials;
 import fr.blue.abyssalplanet.item.SoulOfTheSeasItem;
 import fr.blue.abyssalplanet.item.TyphoonCallerItem;
 import fr.blue.abyssalplanet.item.ZwoingItem;
@@ -22,6 +24,7 @@ import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -219,6 +222,34 @@ public static final RegistryObject<Item> ABYSSAL_VENOM_2 = ITEMS.register(
 public static final RegistryObject<Item> ABYSSAL_VENOM_3 = ITEMS.register(
         "abyssal_venom_3",
         () -> new AbyssalVenomItem(3, new Item.Properties().stacksTo(16).rarity(Rarity.EPIC).fireResistant())
+);
+
+public static final RegistryObject<Item> ABYSSAL_WANDERER_MASK = ITEMS.register(
+        "abyssal_wanderer_mask",
+        () -> new AbyssalWandererMaskItem(
+                ModArmorMaterials.ABYSSAL_WANDERER_MASK,
+                new Item.Properties().stacksTo(1).rarity(Rarity.EPIC)
+        )
+);
+
+public static final RegistryObject<Item> ABYSSAL_POACHER_SPAWN_EGG = ITEMS.register(
+        "abyssal_poacher_spawn_egg",
+        () -> new ForgeSpawnEggItem(
+                ModEntities.ABYSSAL_POACHER,
+                0xC6B7A9,
+                0x5A241F,
+                new Item.Properties()
+        )
+);
+
+public static final RegistryObject<Item> ABYSSAL_WANDERER_SPAWN_EGG = ITEMS.register(
+        "abyssal_wanderer_spawn_egg",
+        () -> new ForgeSpawnEggItem(
+                ModEntities.ABYSSAL_WANDERER,
+                0x8E2C2C,
+                0x35205B,
+                new Item.Properties()
+        )
 );
 
     public static void register(IEventBus eventBus) {

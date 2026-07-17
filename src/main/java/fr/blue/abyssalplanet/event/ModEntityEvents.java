@@ -6,6 +6,8 @@ import fr.blue.abyssalplanet.entity.AbyssalOctopusEntity;
 import fr.blue.abyssalplanet.entity.AbyssalSerpentEntity;
 import fr.blue.abyssalplanet.entity.AbyssalShrimpEntity;
 import fr.blue.abyssalplanet.entity.AbyssalViperEntity;
+import fr.blue.abyssalplanet.entity.AbyssalPoacherEntity;
+import fr.blue.abyssalplanet.entity.AbyssalWandererEntity;
 import fr.blue.abyssalplanet.entity.BabyKrakenEntity;
 import fr.blue.abyssalplanet.entity.GeorgesBriochardEntity;
 import fr.blue.abyssalplanet.entity.GeorgesJuniorEntity;
@@ -42,6 +44,8 @@ public class ModEntityEvents {
         event.put(ModEntities.GEORGES_JUNIOR.get(), GeorgesJuniorEntity.createAttributes().build());
         event.put(ModEntities.GEORGES_SENIOR.get(), GeorgesSeniorEntity.createAttributes().build());
         event.put(ModEntities.ABYSSAL_SHRIMP.get(), AbyssalShrimpEntity.createAttributes().build());
+        event.put(ModEntities.ABYSSAL_POACHER.get(), AbyssalPoacherEntity.createAttributes().build());
+        event.put(ModEntities.ABYSSAL_WANDERER.get(), AbyssalWandererEntity.createAttributes().build());
     }
 
     @SubscribeEvent

@@ -77,6 +77,12 @@
   "entity.abyssalplanet.georges_junior": "Georges Junior",
   "entity.abyssalplanet.georges_senior": "Georges Senior",
   "entity.abyssalplanet.abyssal_shrimp": "Crevette abyssale",
+  "entity.abyssalplanet.abyssal_poacher": "Braconnier des Abysses",
+  "entity.abyssalplanet.abyssal_wanderer": "Le Vagabond",
+  "item.abyssalplanet.abyssal_wanderer_mask": "Masque du Vagabond des Abysses",
+  "item.abyssalplanet.abyssal_cult_banner": "\u00c9tendard de la Secte abyssale",
+  "item.abyssalplanet.abyssal_poacher_spawn_egg": "\u0152uf d'apparition de Braconnier des Abysses",
+  "item.abyssalplanet.abyssal_wanderer_spawn_egg": "\u0152uf d'apparition de Vagabond des Abysses",
 
   "message.abyssalplanet.whistle.unlinked": "Ce sifflet n'est li\u00e9 \u00e0 aucun Georges Senior.",
   "message.abyssalplanet.whistle.not_found": "Georges Senior est introuvable pour le moment.",
@@ -96,6 +102,10 @@
   "subtitles.abyssalplanet.music.abyssal_theme": "Th\u00e8me abyssal",
   "subtitles.abyssalplanet.entity.kraken.attack_scream": "Le Kraken charge",
   "subtitles.abyssalplanet.entity.kraken.hunt_roar": "Le Kraken commence la chasse",
+  "subtitles.abyssalplanet.entity.abyssal_poacher.alert": "La horde vous a rep\u00e9r\u00e9",
+  "subtitles.abyssalplanet.entity.abyssal_wanderer.combat": "Le Vagabond entre en combat",
+  "subtitles.abyssalplanet.entity.abyssal_humanoid.hurt": "Un Braconnier des Abysses est bless\u00e9",
+  "bossbar.abyssalplanet.abyssal_wanderer": "Vagabond des Abysses",
 
   "container.abyssalplanet.abyssal_pouch": "Bourse abyssale",
 

@@ -6,7 +6,7 @@ plugins {
     id 'org.spongepowered.mixin' version '0.7.+'
 }
 
-version = "0.1.2"
+version = mod_version
 group = "fr_blue"
 
 base {
